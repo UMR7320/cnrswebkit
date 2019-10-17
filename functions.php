@@ -257,10 +257,10 @@ if (!function_exists('cnrswebkit_credits')) :
         // TODO  remplacer ça par un menu (pour traduction et car liens codés en dur!!) 
         ?>
         <div class="cnrs-bottom-line">
-            <div><a href="/credits-mentions-legales/">Crédits & mentions légales</a></div>
-            <div><a href="/plan-du-site/">Plan du site</a></div>
-            <div><a href="/accessibilite/">Accessibilité</a></div>
-            <div><a href="/feed" target="_blank">RSS</a></div>
+            <div><a href="<?php echo esc_url(home_url('/credits-mentions-legales/')); ?>">Crédits & mentions légales</a></div>
+            <div><a href="<?php echo esc_url(home_url('/plan-du-site/')); ?>">Plan du site</a></div>
+            <div><a href="<?php echo esc_url(home_url('/accessibilite/')); ?>">Accessibilité</a></div>
+            <div><a href="<?php echo esc_url(home_url('/feed')); ?>" target="_blank">RSS</a></div>
             <div><a href="http://kit-web.cnrs.fr/" target="_blank">Conçu à partir du Kit Labos du CNRS</a></div>
         </div>
         <?php 
